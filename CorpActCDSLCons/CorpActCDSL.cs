@@ -38,7 +38,7 @@ namespace CorpActCDSLCons
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dataGridView4.DataSource = dt;
         }
 
         private void btnView02_Click(object sender, EventArgs e)
@@ -377,5 +377,6 @@ namespace CorpActCDSLCons
         {
 
         }
+        
     }
 }
